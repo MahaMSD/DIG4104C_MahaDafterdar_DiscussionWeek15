@@ -324,60 +324,93 @@ div#histotime section:nth-child(1) {
 
 div#histotime section:nth-child(2) {
   /*background: #222222;*/
-  background: -webkit-linear-gradient(#000000, #222222); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#000000, #222222); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#000000, #222222); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#000000, #222222); /* Standard syntax */
+  background: -webkit-linear-gradient(#000000, #101010); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#000000, #101010); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#000000, #101010); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#000000, #101010); /* Standard syntax */
   margin-top: 300px;
 }
 
 div#histotime section:nth-child(3) {
   /*background: #383838;*/
-  background: -webkit-linear-gradient(#222222, #383838); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#222222, #383838); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#222222, #383838); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#222222, #383838); /* Standard syntax */
+  background: -webkit-linear-gradient(#101010, #202020); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#101010, #202020); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#101010, #202020); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#101010, #202020); /* Standard syntax */
 }
 
 div#histotime section:nth-child(4) {
   /*background: #4e4e4e;*/
-  background: -webkit-linear-gradient(#383838, #4e4e4e); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#383838, #4e4e4e); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#383838, #4e4e4e); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#383838, #4e4e4e); /* Standard syntax */
+  background: -webkit-linear-gradient(#202020, #303030); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#202020, #303030); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#202020, #303030); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#202020, #303030); /* Standard syntax */
 }
 
 div#histotime section:nth-child(5) {
   /*background: #646464;*/
-  background: -webkit-linear-gradient(#4e4e4e, #646464); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#4e4e4e, #646464); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#4e4e4e, #646464); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#4e4e4e, #646464); /* Standard syntax */
+  background: -webkit-linear-gradient(#303030, #404040); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#303030, #404040); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#303030, #404040); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#303030, #404040); /* Standard syntax */
 }
 
 div#histotime section:nth-child(6) {
   /*background: #7a7a7a;*/
-  background: -webkit-linear-gradient(#646464, #7a7a7a); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#646464, #7a7a7a); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#646464, #7a7a7a); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#646464, #7a7a7a); /* Standard syntax */
+  background: -webkit-linear-gradient(#404040, #505050); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#404040, #505050); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#404040, #505050); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#404040, #505050); /* Standard syntax */
 }
 
 div#histotime section:nth-child(7) {
   /*background: #909090;*/
-  background: -webkit-linear-gradient(#7a7a7a, #909090); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#7a7a7a, #909090); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#7a7a7a, #909090); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#7a7a7a, #909090); /* Standard syntax */
+  background: -webkit-linear-gradient(#505050, #606060); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#505050, #606060); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#505050, #606060); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#505050, #606060); /* Standard syntax */
 }
 
 div#histotime section:nth-child(8) {
   /*background: #a6a6a6;*/
-  background: -webkit-linear-gradient(#909090, #a6a6a6); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#909090, #a6a6a6); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#909090, #a6a6a6); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#909090, #a6a6a6); /* Standard syntax */
+  background: -webkit-linear-gradient(#606060, #707070); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#606060, #707070); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#606060, #707070); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#606060, #707070); /* Standard syntax */
 }
+
+div#histotime section:nth-child(9) {
+  /*background: #a6a6a6;*/
+  background: -webkit-linear-gradient(#707070, #808080); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#707070, #808080); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#707070, #808080); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#707070, #808080); /* Standard syntax */
+}
+
+div#histotime section:nth-child(10) {
+  /*background: #a6a6a6;*/
+  background: -webkit-linear-gradient(#808080, #909090); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#808080, #909090); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#808080, #909090); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#808080, #909090); /* Standard syntax */
+}
+
+div#histotime section:nth-child(11) {
+  /*background: #a6a6a6;*/
+  background: -webkit-linear-gradient(#909090, #a0a0a0); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#909090, #a0a0a0); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#909090, #a0a0a0); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#909090, #a0a0a0); /* Standard syntax */
+}
+
+div#histotime section:nth-child(12) {
+  /*background: #a6a6a6;*/
+  background: -webkit-linear-gradient(#a0a0a0, #b0b0b0); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#a0a0a0, #b0b0b0); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#a0a0a0, #b0b0b0); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#a0a0a0, #b0b0b0); /* Standard syntax */
+}
+
 
 div#histotime section p {
   font-size: 20px;
@@ -399,11 +432,10 @@ div#histotime section p span.secitle {
 
 div#histotime .nav__wrapper {
   /*border:1px solid red;*/
-  margin-top: -15px;
+  margin-top: 0px;
   position: fixed;
   height: 100%;
-  padding: 30px;
-  padding-top: 0px;
+  padding-left: 30px;
   top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -420,7 +452,7 @@ div#histotime .nav {
 }
 
 div#histotime .nav__counter {
-  font-size: 24px;
+  font-size: 18px;
   -webkit-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
 }
@@ -547,7 +579,7 @@ div#histotime .nav li.active .nav__body {
   }
 
   div#histotime .nav__counter {
-    font-size: 22px;
+    font-size: 17px;
   }
 
   div#histotime .nav li.active .nav__counter {
@@ -568,11 +600,11 @@ div#histotime .nav li.active .nav__body {
   }
 
   div#histotime .nav__wrapper {
-    margin-top: -100px;
+    margin-top: -50px;
   }
 
   div#histotime .nav__counter {
-    font-size: 19px;
+    font-size: 16px;
   }
 
   div#histotime .nav li.active .nav__counter {
@@ -602,7 +634,7 @@ div#histotime .nav li.active .nav__body {
   }
 
   div#histotime .nav__counter {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   div#histotime .nav li.active .nav__counter {

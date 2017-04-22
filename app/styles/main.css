@@ -488,6 +488,27 @@ div#histotime .nav li.active .nav__body {
   overflow: visible;
 }
 
+/* -- back to top button -- */
+.back-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-block;  
+  padding: 0.5em;
+  margin: 0.5em;
+  /*background: #E8E8E8;
+  border: 2px solid #000;*/
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.back-to-top:hover {
+  cursor: pointer;
+  zoom: 115%;
+  /*border: 1px solid #ffffff;
+  border-radius: 7px;*/
+}
+
 /* ------------ media quires for sizing ------------- */
 /* media queries for fixing the hieght */
 @media all and (max-width: 992px) {

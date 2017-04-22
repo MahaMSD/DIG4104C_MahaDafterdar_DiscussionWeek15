@@ -68,6 +68,12 @@ nav.navbar button.navbar-toggle i {
   color: #fffffa;
 }
 
+/*nav.navbar button:hover {
+  background-color: transparent;
+  border: 2px solid red;
+
+}
+*/
 nav.navbar ul.nav {
   z-index: 999;
   /*background-color: rgba(0, 0, 0, 0.7);*/
@@ -85,12 +91,24 @@ nav.navbar ul.nav li a {
   font-weight: bold;
 }*/
 
+/* --------- media quires ---------- */
 @media all and (max-width: 767px) {
   nav.navbar ul.nav {
   z-index: 999;
   background-color: rgba(0, 0, 0, 1);
   /*background-color: transparent;*/
   margin-top: 0px;
+  }
+}
+
+@media all and (max-width: 468px) {
+  nav.navbar div a#logo {
+    font-size: 30px;
+    padding-top: 3px;
+  }
+
+  nav.navbar button.navbar-toggle i {
+    font-size: 22px;
   }
 }
 
@@ -142,9 +160,7 @@ svg {
   to{fill:transparent;}
 }
 
-
-/* --- end of svg draw --- */ 
-
+/* --- welco svg --- */
 div#welco {
   /*width: 80%;*/
   margin-top: 40%;
@@ -164,4 +180,72 @@ div#welco .st2 {
       back 4s cubic-bezier(0.27, -0.12, 0.58, 1) 4s alternate infinite;
   }
 
+/* --- end of svg draw --- */ 
+
+div#homecont {
+  text-align: center;
+  margin-top: 20px;
+  /*border: 2px solid red;*/
+}
+
+div#homecont p {
+  color: #efefef;
+  font-size: 20px;
+  line-height: 37px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-weight: 300;
+}
+
+/*div#homecont button {
+  font-size: 20px;
+  color: #fffffa;
+  background-color: #999999;
+  border: none;
+  box-shadow: 3px 3px 7px #aaaaaa;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+}
+
+div#homecont button:hover {
+  font-size: 22px;
+}*/
+
+/* ------ media queries ------ */
+@media all and (max-width: 768px) {
+  div#homecont p {
+    font-size: 21px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  div#welco {
+    margin-top: 17%;
+    margin-left: 0px;
+    margin-bottom: 9%;
+  }
+
+}
+
+@media all and (max-width: 500px) {
+  div#welco {
+    margin-top: 15%;
+    margin-left: 0px;
+    margin-bottom: 9%;
+  }
+
+}
+
+@media all and (max-width: 468px) {
+  div#homecont p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+}
 

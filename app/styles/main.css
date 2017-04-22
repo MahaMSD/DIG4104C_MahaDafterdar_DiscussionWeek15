@@ -662,7 +662,7 @@ div#gamecontent h1 {
   color: #efefef;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 div#gamecontent hr {
@@ -678,11 +678,11 @@ div#gamecontent hr {
 
 #quizzie h2 {
   text-transform: normal;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   font-family: 'Lato', sans-serif;
   color: #efefef;
   text-align: center;
-  margin-top: 30px;
+  margin-top: -50px;
   font-size: 27px;
 }
 
@@ -738,6 +738,12 @@ div#gamecontent hr {
 
 #quizzie ul li.results-inner {
   padding: 5% 2%;
+}
+
+#quizzie ul li.results-inner h4 {
+  font-family: 'Lato', sans-serif;
+  color: #fffffa;
+  font-size: 18px;
 }
 
 #quizzie ul li.results-inner p {

@@ -112,6 +112,29 @@ nav.navbar ul.nav li a {
   }
 }
 
+/* -------- footer -------- */
+footer {
+  text-align: center;
+  /*margin-top: 15px;*/
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #1a1a1a;
+}
+
+footer div#disclaimer p {
+  color: #a1a1a1;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* --------- media quires ---------- */
+@media all and (max-width: 468px) {
+  footer div#disclaimer p {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
+
 /* ----------------------------------------- index.php --------------------------- */
 body#homebd {
   background-color: #000000;
@@ -185,6 +208,7 @@ div#welco .st2 {
 div#homecont {
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 20px;
   /*border: 2px solid red;*/
 }
 
